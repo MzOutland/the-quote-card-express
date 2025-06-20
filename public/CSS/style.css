@@ -1,4 +1,4 @@
-body {
+/*body {
     background-image: url("../images/sunset.jpg");
     background-size: cover;
     background-position: cover;
@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+}*/
 
 main {
     padding: 10% 10%;
@@ -69,4 +69,16 @@ main {
   bottom: 20px;
   right: 20px;
   transform: rotate(180deg);
+}
+
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
